@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.33.0",
+	"version": "0.34.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
@@ -16,13 +16,6 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/XplnAccdnt"]
-		},
-		{
-			"name": "Whittleton Broadcast Sync",
-			"tooltip": "In vanilla, the TV in Whittleton Creek has its audio desynced from its visuals. This will fix it, but only after the first loop.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/WhittletonBroadcastSync"]
 		},
 		{
 			"name": "Purple Streak Duck",
